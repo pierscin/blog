@@ -4,7 +4,7 @@ title:       Michał Pierściński
 author:      Michał Pierściński
 #description: ""
 baseurl:     ""
-url:         "http://pierscin.ski"
+url:         "http://blog.pierscin.ski"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
