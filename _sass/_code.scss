@@ -10,20 +10,17 @@ code {
 }
 
 code {
-  color: #7a7a7a;
+  color: $hljs-base;
 }
 
 pre {
+  font-size: small;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
   padding: 1.125em;
   line-height: 1.11;
   overflow-x: scroll;
   margin-bottom: 0.88em;
   background-color: $pre-background-color;
-}
-
-.highlight .p {
-  font-size: 1.125rem;
-  line-height: 1;
 }
 
 pre {

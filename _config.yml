@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Michał Pierściński
+#email:       
+author:      Michał Pierściński
+#description: ""
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://pierscin.ski"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -14,7 +14,7 @@ header_pages:
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: UA-108792599-2
 google_tag_manager:
 # Bing services
 bing_verification:
@@ -111,17 +111,19 @@ text:
       sending:  'sending..'
       sent:     'Message sent!'
       error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
   og_locale: 'en_US'
 
 # Build settings
 markdown:     kramdown
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 permalink:    pretty
 paginate:     4
 sass:
-  style: compressed
+  compressed: true
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap

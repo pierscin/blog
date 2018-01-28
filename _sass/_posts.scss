@@ -1,6 +1,7 @@
 
 .posts {
   margin: 0;
+  text-align: center;
 }
 
 .posts .post {
@@ -16,7 +17,7 @@
 
 .post-link .post-title {
   margin-top: 0;
-  font-weight: 600;
+  font-weight: 400;
   color: #333;
 }
 
@@ -40,7 +41,6 @@
   margin: 0;
   padding: .25em 0;
   color: #7a7a7a;
-  font-style: italic;
 }
 
 .related-post-title {
